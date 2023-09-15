@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="GUI.startingAppController">
+
+    <Button text="Start Server" onAction="#startingServer"/>
+    <Button text="Stop Server" onAction="#stoppingServer"/>
+    <Button text="Start Client" onAction="#startingClient"/>
+    <Button text="Stop Client" onAction="#stoppingClient"/>
+    <Button text="Stop All" onAction="#stopAll"/>
+    <TextArea fx:id="serverLogTextArea" />
+
+</VBox>

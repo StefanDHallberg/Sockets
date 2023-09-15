@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.ClientGUIController">
+    <children>
+        <Button text="Connect" onAction="#connectButtonAction" />
+        <Button text="Disconnect" onAction="#disconnectButtonAction" />
+        <TextField fx:id="serverAddressField" text="localhost" promptText="Server Address" />
+        <TextField fx:id="portField" promptText="Port" />
+        <TextArea fx:id="logArea" />
+    </children>
+</VBox>
